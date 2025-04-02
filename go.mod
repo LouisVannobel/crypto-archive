@@ -1,4 +1,4 @@
-module github.com/home/louis/go/crypto-archive
+module github.com/LouisVannobel/crypto-archive
 
 go 1.24
 
