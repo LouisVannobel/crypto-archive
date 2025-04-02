@@ -22,6 +22,9 @@ Une application Go qui archive les données de crypto-monnaies depuis l'API Krak
 
 Crypto Archive API est une application écrite en Go qui permet de collecter, archiver et exposer les données de trading des crypto-monnaies via une API REST. Elle utilise l'API Kraken pour récupérer les données en temps réel et les stocke dans une base de données SQLite. Les utilisateurs peuvent également exporter les données sous forme de fichiers CSV.
 
+![terminal1](https://github.com/user-attachments/assets/b948aadb-728f-4f86-a9bd-0632bd6737a9)
+![terminal2](https://github.com/user-attachments/assets/6bc64b1c-abe8-4ac0-994b-2df5d9b4313e)
+
 ---
 
 ## Fonctionnalités
@@ -99,9 +102,17 @@ Crypto Archive API est une application écrite en Go qui permet de collecter, ar
 ### Routes API
 
 - `GET /` : Documentation de l'API
+- ![home](https://github.com/user-attachments/assets/7122c7fb-0802-4030-bd3b-d6e29ef4e99e)
+
 - `GET /api/status` : Statut du serveur (temps du serveur Kraken, état de la base de données, etc.)
+- ![api-status](https://github.com/user-attachments/assets/016f71ec-f8fb-4f92-a87e-4b57d50622d4)
+
 - `GET /api/pairs` : Liste des paires disponibles
+- ![api-pairs](https://github.com/user-attachments/assets/cb45b69d-1eb2-43db-b732-541552cede1d)
+
 - `GET /api/data` : Données archivées pour toutes les paires
+- ![api-data](https://github.com/user-attachments/assets/da858145-5e48-4350-8328-a9fecd0857ca)
+
 - `GET /api/data/<pair>` : Données archivées pour une paire spécifique
 - `GET /api/export/<pair>` : Télécharger un fichier CSV pour une paire spécifique
 - `GET /api/export-latest` : Télécharger le dernier fichier CSV global
