@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  crypto-archive:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - crypto-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  crypto-data:
+    driver: local

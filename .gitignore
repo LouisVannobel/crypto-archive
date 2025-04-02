@@ -1,0 +1,39 @@
+# Binaries
+crypto-archive
+*.exe
+*.out
+*.test
+
+# Logs
+*.log
+
+# Dependency directories
+vendor/
+
+# Go cache and build directories
+/bin/
+/pkg/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Temporary files
+*.swp
+*.swo
+.cache/
+
+# Docker
+data/
+docker-compose.override.yml
+
+# Git-specific files
+*.patch
+*.orig
+
+# CI/CD
+.github/workflows/*.log
