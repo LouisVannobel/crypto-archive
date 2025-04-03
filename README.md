@@ -111,11 +111,12 @@ Crypto Archive API est une application écrite en Go qui permet de collecter, ar
 - ![api-pairs](https://github.com/user-attachments/assets/cb45b69d-1eb2-43db-b732-541552cede1d)
 
 - `GET /api/data` : Données archivées pour toutes les paires
-- ![api-data](https://github.com/user-attachments/assets/da858145-5e48-4350-8328-a9fecd0857ca)
+![api-data](https://github.com/user-attachments/assets/68d92966-b8be-4d4c-96e6-e149836cf3b7)
 
 - `GET /api/data/<pair>` : Données archivées pour une paire spécifique
 - `GET /api/export/<pair>` : Télécharger un fichier CSV pour une paire spécifique
 - `GET /api/export-latest` : Télécharger le dernier fichier CSV global
+![export-latest-csv](https://github.com/user-attachments/assets/537d3a3f-9832-4669-99a8-e0538c21da7f)
 
 ### Structure des fichiers CSV
 
